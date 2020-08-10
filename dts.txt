@@ -1,0 +1,6 @@
+&i2c2 {
+	ds1307x: ds1307x@68 {
+		compatible = "dallas,ds1307x";
+		reg = <0x68>;
+	};
+};
